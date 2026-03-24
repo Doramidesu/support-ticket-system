@@ -1,0 +1,16 @@
+# ENV
+.env
+Backend/.env
+
+# Node
+node_modules/
+Frontend/node_modules/
+Bot/node_modules/
+
+# Laravel
+Backend/vendor/
+Backend/storage/
+
+# Misc
+dist/
+build/

@@ -1,0 +1,20 @@
+{
+  "name=": "puskom",
+  "version": "1.0",
+  "description": "Bot whatsaap",
+  "main": "index.js",
+  "scripts": {
+    "author": "Puskom",
+    "license": "MIT",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc.8",
+    "axios": "^1.13.6",
+    "chalk": "^4.1.2",
+    "pino": "^8.14.1",
+    "qrcode-terminal": "^0.12.0",
+    "readline": "1.3.0",
+    "ws": "^8.18.3"
+  }
+}
