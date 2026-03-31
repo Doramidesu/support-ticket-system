@@ -274,6 +274,9 @@ async function connectToWhatsApp() {
     if (msg.key.fromMe) return;
 
     const sender = msg.key.remoteJid;
+
+    if (!sender.endsWith("@s.whatsapp.net")) return;
+
     const phone = sender.replace("@s.whatsapp.net", "");
     const pushname = msg.pushName || "User";
 
