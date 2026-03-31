@@ -4,13 +4,16 @@ Backend/.env
 
 # Node
 node_modules/
-Frontend/node_modules/
-Bot/node_modules/
 
 # Laravel
 Backend/vendor/
 Backend/storage/
 
+# Bot Session
+Bot/PuskomSesi/*
+!Bot/PuskomSesi/.gitkeep
+
 # Misc
 dist/
 build/
+*.log
